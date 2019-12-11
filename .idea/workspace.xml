@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ef26f10-ba31-4443-98ee-bdb3619cf690" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ListNode.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/addTwoNumbers.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mergeKLists.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mergeTwoLists.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/removeNthNodeFromEndOfList.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/swapNodesInPairs.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/partitionList.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/reverseNodesInKGroup.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/rotateList.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/longestSubstringWithoutRepeatingCharacters.java" afterPath="$PROJECT_DIR$/src/main/java/longestSubstringWithoutRepeatingCharacters.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/longestSubstringWithoutRepeatingCharacters.class" afterPath="$PROJECT_DIR$/target/classes/longestSubstringWithoutRepeatingCharacters.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -56,11 +51,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="swapNodesInPairs.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="swapNodesInPairs.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/swapNodesInPairs.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="298">
               <caret line="32" column="20" lean-forward="false" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reverseNodesInKGroup.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/reverseNodesInKGroup.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="47" column="23" lean-forward="true" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="partitionList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/partitionList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="515">
+              <caret line="42" column="30" lean-forward="false" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#1058#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rotateList.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/rotateList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -105,12 +132,15 @@
         <option value="$PROJECT_DIR$/src/main/java/mergeTwoLists.java" />
         <option value="$PROJECT_DIR$/src/main/java/mergeKLists.java" />
         <option value="$PROJECT_DIR$/src/main/java/swapNodesInPairs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/reverseNodesInKGroup.java" />
+        <option value="$PROJECT_DIR$/src/main/java/partitionList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rotateList.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="582" />
-    <option name="y" value="52" />
+    <option name="x" value="581" />
+    <option name="y" value="42" />
     <option name="width" value="1552" />
     <option name="height" value="959" />
   </component>
@@ -376,7 +406,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="582" y="52" width="1552" height="959" extended-state="0" />
+    <frame x="581" y="42" width="1552" height="959" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -519,8 +549,8 @@
         <state relative-caret-position="105">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
-            <element signature="e#76#77#0" expanded="true" />
-            <element signature="e#99#100#0" expanded="true" />
+            <element signature="e#76#77#0" expanded="false" />
+            <element signature="e#99#100#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -538,7 +568,7 @@
         <state relative-caret-position="350">
           <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
           <folding>
-            <element signature="e#0#1521#0" expanded="true" />
+            <element signature="e#0#1521#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -571,6 +601,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="32" column="20" lean-forward="false" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/reverseNodesInKGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="47" column="23" lean-forward="true" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/partitionList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="42" column="30" lean-forward="false" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#1058#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rotateList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding />
         </state>
       </provider>
