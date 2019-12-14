@@ -29,7 +29,7 @@ public class palindromeLinkedList {
             return true;
         ListNode slow = head;
         ListNode fast = head;
-        while (fast.next != null&& fast.next.next) {
+        while (fast.next != null && fast.next.next != null) {
             fast = fast.next.next;
             slow = slow.next;
         }

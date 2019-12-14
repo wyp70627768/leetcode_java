@@ -25,7 +25,7 @@ public class swapNodesInPairs {
             return head;
         ListNode firstNode = head;
         ListNode secondNode = head.next;
-        firstNode.next = swapPairs(secondNode.next);
+        firstNode.next = swapPairs1(secondNode.next);
         secondNode.next = firstNode;
         return secondNode;
     }

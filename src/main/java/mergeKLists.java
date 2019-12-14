@@ -30,7 +30,7 @@ public class mergeKLists {
     private static ListNode mergeHelper(ListNode[] lists, int start, int end) {
         if (start == end)
             return lists[start];
-        int mid = start + (mid - start)/2;
+        int mid = start + (end - start)/2;
         ListNode left = mergeHelper(lists, start, mid);
         ListNode right = mergeHelper(lists, mid + 1, end);
         return mergeTwoLists(left, right);
